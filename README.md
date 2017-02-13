@@ -5,9 +5,13 @@ It is necessary to modify Caffe with the Cyclical Learning Rate (CLR) policies i
 This repository contains:
 
 CifarResnet-56.prototxt - the training architecture for Resnet-56 on the Cifar10 data.
+
 solver.prototxt - the Caffe training solver file
+
 LRrange-solver.prototxt - the solver file for running an LR range test
+
 clrsolver.prototxt - the solver file for running CLR with LR bounds 0.1 to 1.0 and stepsize=10000
+
 
 If you encounter bugs or missing data, you can contact me at leslie.smith@nrl.navy.mil
 
