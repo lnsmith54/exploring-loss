@@ -17,5 +17,7 @@ LRrange-solver.prototxt - the solver file for running an LR range test
 
 clrsolver.prototxt - the solver file for running CLR with LR bounds 0.1 to 1.0 and stepsize=10000
 
+interpolation/ - the scripts necessary for creating and evaluatin interpolations between networks (more details in separate readme)
+
 
 If you encounter bugs or missing data, you can contact me at leslie.smith@nrl.navy.mil
