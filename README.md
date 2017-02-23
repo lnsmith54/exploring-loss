@@ -1,5 +1,7 @@
 # exploring-loss
 
+UNDER CONSTRUCTION.  The files in this repository do not yet reproduce the figures in the paper.  It will be updated soon.
+
 This repository contains the files needed to replicate the results in:
 Leslie N. Smith, Nicholay Topin, "Exploring loss function topology with cyclical learning rates" arXiv preprint arXiv:1702.04283.
 
