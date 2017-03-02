@@ -14,7 +14,7 @@ solver.prototxt - the Caffe training solver file that was used for Figure 1a.
 
 LRrange-solver.prototxt - the solver file for running an LR range test, which was used for Figure 1b.
 
-clrsolver.prototxt - the solver file for running CLR with LR bounds 0.1 to 1.0 and stepsize=10000, which was used for Figure 2.
+clrsolver.prototxt - the solver file for running CLR with LR bounds 0.1 to 0.35 or 1.0 and stepsize=10000, which was used for Figure 2a and 2b.
 
 train.sh - an example script for running Caffe.
 
