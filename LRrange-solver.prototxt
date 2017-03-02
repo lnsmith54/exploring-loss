@@ -1,11 +1,12 @@
-net: "examples/exploringLoss/architectures/CifarResNet-56.prototxt"
-#
+#net: "examples/github-explore/architectures/CifarResNet-56.prototxt"
+#net: "examples/github-explore/architectures/ResNet60.prototxt"
+net: "examples/github-explore/architectures/ResNet52.prototxt"
 test_iter: 200
 test_interval: 100
 display: 100
 lr_policy:  "triangular" #   "multistep" # "fixed"  # 
 base_lr: 0.00001 # 0.2 #  0.1  # used in the source paper
-max_lr: 3.0
+max_lr: 1.0
 stepsize: 100000
 #base_lr: 0.1 # 0.2 #  0.1  # used in the source paper
 #max_lr: 1.0
@@ -14,8 +15,6 @@ max_iter: 100000 # 50,000 train images * 500 epochs / batch of 128 = 195,312
 momentum: 0.9
 weight_decay: 1e-4
 #snapshot: 20000
-#snapshot_prefix: "examples/exploringLoss/snapshots/cifarResnetCLR1"
+#snapshot_prefix: "examples/github-explore/snapshots/cifarResnetCLR1"
 solver_mode: GPU
-#device_id: 0
-#type: "Adam"
-#type: "AdaGrad"  # "Nesterov" "RMSProp" # 
+random_seed: 831486
